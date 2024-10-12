@@ -1,0 +1,12 @@
+from dotenv import load_dotenv
+import os
+
+# Učitaj .env datoteku
+load_dotenv()
+
+# Dobij OpenAI API ključ
+openai_api_key = os.getenv("OPENAI_API_KEY")
+
+# Dobij Google Cloud kredencijale
+google_credentials = os.getenv("GOOGLE_CLOUD_CREDENTIALS")
+
